@@ -1,0 +1,54 @@
+.footer {
+  background-color: #2e3b4e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.footer button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #5a7d9a;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.footer button:disabled {
+  background-color: #9da7b3;
+  cursor: not-allowed;
+}
+
+.footer button:hover:not(:disabled) {
+  background-color: #467192;
+  color: #fff;
+}
+
+.card-list li {
+  margin-bottom: 20px;
+  height: 40%;
+}
+.card-list li:last-child {
+  margin-bottom: 60px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card-name {
+  width: 80%;
+}
+
+.help-center button {
+  background-color: #5a7d9a00;
+  color: #000;
+}
+.help-center button:hover {
+  background-color: #5a7d9a80;
+}
